@@ -36,7 +36,7 @@ description = "Python logging made (stupidly) simple, fork of loguru with comple
 dynamic = ['version']
 keywords = ["loguru", "logging", "logger", "log"]
 license = { file = "LICENSE" }
-name = "loguru"
+name = "loguru-utf8"
 readme = 'README.md'
 requires-python = ">=3.5,<4.0"
 
