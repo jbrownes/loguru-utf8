@@ -3,7 +3,7 @@ build-backend = "flit_core.buildapi"
 requires = ["flit_core>=3,<4"]
 
 [project]
-authors = [{ name = "Delgan", email = "delgan.py@gmail.com" }]
+authors = [{ name = "Delgan", email = "delgan.py@gmail.com" }, { name = "Jason", email = "jason.lego687@slmails.com"}]
 classifiers = [
   "Development Status :: 5 - Production/Stable",
   "Topic :: System :: Logging",
@@ -79,9 +79,9 @@ dev = [
 ]
 
 [project.urls]
-Changelog = "https://github.com/Delgan/loguru/blob/master/CHANGELOG.rst"
+Changelog = "https://github.com/jbrownes/loguru-utf8/blob/master/CHANGELOG.rst"
 Documentation = "https://loguru.readthedocs.io/en/stable/index.html"
-Homepage = "https://github.com/Delgan/loguru"
+Homepage = "https://github.com/jbrownes/loguru-utf8"
 
 [tool.black]
 force-exclude = "tests/exceptions/source/modern/*"
@@ -95,7 +95,7 @@ target-version = ["py35"]
 typeCheckingMode = "off"
 
 [tool.flit.module]
-name = "loguru"
+name = "loguru-utf8"
 
 [tool.pytest.ini_options]
 addopts = "-l"
