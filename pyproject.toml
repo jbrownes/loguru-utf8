@@ -95,7 +95,7 @@ target-version = ["py35"]
 typeCheckingMode = "off"
 
 [tool.flit.module]
-name = "loguru-utf8"
+name = "loguru"
 
 [tool.pytest.ini_options]
 addopts = "-l"
